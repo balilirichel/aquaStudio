@@ -4,7 +4,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { alpha, colors } from '../../theme/colors';
 import { fontSizes } from '../../theme/typography';
 import { radius, spacing } from '../../theme/spacing';
-import type { LibraryItem } from '../../data/mock';
+import type { LibraryItem } from '../../types/libraryItem';
 import { Text } from '../ui/Text';
 
 interface ItemCardProps {

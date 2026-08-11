@@ -1,4 +1,7 @@
-export const currentTank = {
+import type { LibraryItem } from '../types/libraryItem';
+import type { Tank } from '../types/tank';
+
+export const currentTank: Tank = {
   id: 'neon-tetra-scape',
   name: 'Neon Tetra Scape',
   image: require('../../assets/images/EGe7p4pMeRl.jpeg'),
@@ -6,18 +9,7 @@ export const currentTank = {
   temp: '78.2\u00B0F',
   co2: '30 ppm',
   selectedElement: 'Anubias Nana',
-} as const;
-
-export type LibraryCategory = 'Plant' | 'Hardscape';
-
-export interface LibraryItem {
-  id: string;
-  title: string;
-  subtitle: string;
-  category: LibraryCategory;
-  image: number;
-  accent: 'primary' | 'secondary';
-}
+};
 
 export const libraryItems: LibraryItem[] = [
   {
