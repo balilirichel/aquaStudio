@@ -59,7 +59,7 @@ Aquascape Studio replaces prompt-based editing with a visual workflow that allow
 
 | Technology | Purpose |
 |------------|---------|
-| NestJS | Backend framework |
+| Fastify | Backend framework |
 | TypeScript | Shared language across frontend and backend |
 | Supabase | Authentication, PostgreSQL, and file storage |
 | BullMQ | Background job processing |
